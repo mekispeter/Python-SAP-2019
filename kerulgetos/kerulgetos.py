@@ -19,7 +19,7 @@
     - nincs korlátlan lőszer, ha kifogy, várni kell
     - lőszer- és életcsomagok is érkeznek
     - pajzs, ami megvéd ütközéskor
-    - kétjátékosos mód: hosunk1, hosunk2
+    - kétjátékosos mód: hosunk1, hosunk2 vállvetve harcol
     stb.
 """
 
@@ -91,7 +91,7 @@ class Szereplo():
 """
 class Hosunk(Szereplo):
     def __init__(self):
-        Szereplo.__init__(self, "hosunk", 360, 840, 0, 0, elet = 3)
+        Szereplo.__init__(self, "hosunk", 360, 840, 0, 0, elet = 100)
         self.pont = 0
     # A lövedékek az őket kilövő szereplőtől indulnak.
     def loj(self):
@@ -171,9 +171,9 @@ def kezeld_a_billentyuket():
             # Jobb/bal billentyűnyomásra a billentyű elengedéséig megy
             # jobbra/balra.
             elif esemeny.key == pg.K_LEFT:
-                hosunk.sebesseg_x = -5
+                hosunk.sebesseg_x = -10
             elif esemeny.key == pg.K_RIGHT:
-                hosunk.sebesseg_x = 5
+                hosunk.sebesseg_x = 10
             # A Fel billentyű lenyomására egyszer lő (nem amíg le van nyomva a
             # billentyű).
             elif esemeny.key == pg.K_UP:
@@ -271,7 +271,7 @@ ellensegek = Szereplolista()
 lovedekek_ellenseg = Szereplolista()
 lovedekek_hosunk = Szereplolista()
 
-# És most jön a voltaképpeni játék. Itt már nincsenek technikai részletek,
+# És most jön a voltaképpeni játék. Itt nincsenek technikai részletek,
 # csak egy olyan kód, ami a játékmenet leírásaként is jól olvasható.
 cim()
 while 0 < hosunk.elet:
