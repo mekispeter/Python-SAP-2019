@@ -1,0 +1,16 @@
+
+Rövid összefoglaló az óráról:
+
+A bemelegítő játékok remek hangulatot teremtettek az új anyagrészek befogadáshoz.
+
+Lista típust hoztunk létre, amelynek első körben elemei a lányok nevei voltak.
+A begépelési időt csökkentendő, csak az egy asztalnál ülők neveit kellett a
+listában megadniuk. A feladat az volt, hogy meg kellett mondani egy bekért
+névről, hogy tartalmazza-e a lista.
+
+Ezt a listát bővítettük később, a lányok nevei mellett a születési évszámukat
+is definiáltuk, igy listákat hoztunk létre a listán belül. A feladatban meg
+kellett határozni egy bekért névről, hogy hány éves.
+
+A listák feldolgozása kapcsán beszéltünk  for ciklusról, illetve az adat
+bekérést while ciklusba szerveztük.
