@@ -1,0 +1,21 @@
+A FOR ciklust reprezentáló játékkal melegítettünk be.
+Ezt követően egy egyszerűnek gondolt önálló feladatmegoldással
+indítottuk a munkát, ami gyakorlatilag a teljes időt kitöltötte.
+Nagyon különböző még mindig a lányok tempója, a hiányzók pedig
+egyértelműen lemaradnak. A feladat csak annyi lett volna, hogy
+bekérünk két nevet, megmondjuk, ki az idősebb. A koncepció az volt,
+hogy ezzel az egyszerű programmal vezetem fel a függvények
+használatát, de erre a végén már nem maradt idő. Nem láttam értelmét,
+hogy rájuk toljam a kódot, azt szerettem volna, ha önállóan
+gondolkodva oldják meg. Segítséggel nagyjából mindenkinek sikerült
+a végére, de másra nem maradt időnk. Csatoltam a tegnapi kódot.
+
+Megkérdeztem a foglalkozás végén a lányokat, hogy mi a véleményük
+arról, ha egy kicsit tovább alapozunk, és kevesebb idő marad a
+játékfejlesztésre. A többségük támogatta. Én most úgy érzem, hogy
+az ő szintjükön a Peti által bemutatott Pygame kód inkább ijesztő
+lesz, mint kihívó. De lehet, hogy többre képesebbek, csak tegnap
+nagyon fáradtak voltak.
+
+A következő foglalkozáson nagyobb hangsúlyt szeretnék fektetni a
+közös gondolkodásra, meglátjuk meddig jutunk.
